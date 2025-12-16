@@ -2,11 +2,11 @@
 // I. KHU VỰC CÁ NHÂN HÓA 
 // =======================================================
 const CRUSH_NAME = "Quỳnh Anh";
-const MEMORY_TEXT = "Tớ vẫn nhớ mỗi lần cậu cười, dường như cả căn phòng đều sáng bừng lên. Nụ cười ấy là điều tớ muốn nhìn thấy mãi mãi."; // Nội dung ngưỡng mộ
-const BUILD_UP_TEXT = "Cậu đã mang lại sự ấm áp và niềm tin cho cuộc sống của tớ. Và đây là..."; 
+const MEMORY_TEXT = "Đêm Giáng sinh an lành này, tớ có điều quan trọng hơn cả quà cáp muốn nói với cậu..."; 
+const BUILD_UP_TEXT = "Tớ chúc cậu giáng sinh an lành, luôn vui vẻ vì tớ thích nụ cười của cậu, khi cậu cười nhìn rất xinh!!Và đây là"; 
 
 const CONFESSION_MESSAGE = 
-    "Nếu cậu là ngọn nến, tớ nguyện làm ánh lửa. Nếu cậu là mùa đông, tớ xin được làm chiếc ôm. Giáng sinh này, giữa muôn vàn ánh đèn lấp lánh, điều tớ ước ao nhất là được cùng cậu bước tiếp. Tớ đã yêu cậu mất rồi. <strong>" + CRUSH_NAME + "</strong>, cậu có đồng ý trở thành 'món quà Giáng sinh vĩnh cửu' của tớ không?";
+    " Giáng sinh này, giữa muôn vàn ánh đèn lấp lánh, điều tớ mong muốn nhất là luôn được nhìn thấy cậu. Cậu có đồng ý trở thành 'món quà Giáng sinh đẹp nhất' của tớ không?";
 
 const TYPING_SPEED = 50; 
 let typingInterval; 
@@ -98,7 +98,7 @@ function handleResponse(isAccepted) {
         // Kịch bản TỪ CHỐI
         confessionPhase.style.background = 'linear-gradient(145deg, #1f364d, #3a546d)'; 
         confessionPhase.style.boxShadow = 'none';
-        confessionText.innerHTML = "😊 Không sao cả. Cảm ơn cậu vì đã chân thành. Tớ trân trọng tình bạn này. Chúc cậu một mùa Giáng sinh thật ấm áp nhé!";
+        confessionText.innerHTML = "😊 Cảm ơn cậu, tớ sẽ luôn trân trọng tình bạn này. Chúc cậu một mùa giáng sinh an lành nhé!";
         confessionText.style.color = 'white';
     }
 }
